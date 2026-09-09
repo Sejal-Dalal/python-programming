@@ -22,7 +22,7 @@ while True:
     elif choice=="3":
         name = input("Enter student name:")
         if name in student:
-            student[name]=marks
+            marks=student[name]
             if marks >= 40:
                 print("PASS")
             else:
